@@ -14,7 +14,7 @@ if (process.env.JAWSDB_URL) {
     database: 'burgers_db'
   });
 };
-
+console.log("boop")
 // Establishing connection to DB
 connection.connect(function (error) {
   if (error) {
